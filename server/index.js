@@ -4,6 +4,10 @@ const { createPageRenderer } = require('vite-plugin-ssr')
 const isProduction = process.env.NODE_ENV === 'production'
 const root = `${__dirname}/..`
 
+if (isProduction) {
+  require('../custom-build-dir/server/importBuild.cjs')
+}
+
 startServer()
 
 async function startServer() {
@@ -11,7 +15,7 @@ async function startServer() {
 
   let viteDevServer
   if (isProduction) {
-    app.use(express.static(`${root}/dist/client`))
+    app.use(express.static(`${root}/custom-build-dir/client`))
   } else {
     const vite = require('vite')
     viteDevServer = await vite.createServer({
