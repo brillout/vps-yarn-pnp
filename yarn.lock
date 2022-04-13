@@ -1781,7 +1781,7 @@ __metadata:
     react: ^17.0.2
     react-dom: ^17.0.2
     vite: ^2.8.4
-    vite-plugin-ssr: 0.4.0-beta.10
+    vite-plugin-ssr: 0.4.0-beta.11
   languageName: unknown
   linkType: soft
 
@@ -2036,10 +2036,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-dist-importer@npm:^0.1.5":
-  version: 0.1.5
-  resolution: "vite-plugin-dist-importer@npm:0.1.5"
-  checksum: 62ff597369b487293dfc7b4b864d547d8239cb28338f11ba8b989e5aaa7532fe57d88eb8f76d8b775793909f1bf5c10fbe3d1581934a5f186c2345e8f4e9cf05
+"vite-plugin-dist-importer@npm:^0.1.6":
+  version: 0.1.6
+  resolution: "vite-plugin-dist-importer@npm:0.1.6"
+  checksum: 06f0ceb215b843077976bc266aacf2717d5bda83f8783e7ed97edb250fb21fd4e13e0c66966824205f8119400407de9d4630c1ae5592196eb8e4f9bb93d5f27b
   languageName: node
   linkType: hard
 
@@ -2056,9 +2056,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-ssr@npm:0.4.0-beta.10":
-  version: 0.4.0-beta.10
-  resolution: "vite-plugin-ssr@npm:0.4.0-beta.10"
+"vite-plugin-ssr@npm:0.4.0-beta.11":
+  version: 0.4.0-beta.11
+  resolution: "vite-plugin-ssr@npm:0.4.0-beta.11"
   dependencies:
     "@brillout/json-s": ^0.4.3
     "@brillout/libassert": ^0.5.4
@@ -2069,13 +2069,13 @@ __metadata:
     p-limit: ^3.1.0
     resolve: ^1.22.0
     symlink-dir: ^5.0.1
-    vite-plugin-dist-importer: ^0.1.5
+    vite-plugin-dist-importer: ^0.1.6
     vite-plugin-glob: ^0.2.6
   peerDependencies:
     vite: ^2.8.4
   bin:
     vite-plugin-ssr: node/bin/vite-plugin-ssr.js
-  checksum: 86efc062cbe41c28478813d8be4923275e2d07cc2713bca3d02afdd1a67b5261882eb3dafcd8e600d962904fce138c0c1f604107d54c2a5b1ce2a66a5296a3da
+  checksum: 6e315a422689b4fbbbfeb2d57357b87db7f4caf24552174d1bb421faab56124898932e9fa56348d4ba44548807442f207efd204ad6f58005668096a7c0c6d687
   languageName: node
   linkType: hard
 

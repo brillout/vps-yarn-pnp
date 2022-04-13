@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:17.0.2"],\
             ["vite", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:2.9.1"],\
-            ["vite-plugin-ssr", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:0.4.0-beta.10"]\
+            ["vite-plugin-ssr", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:0.4.0-beta.11"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2100,7 +2100,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:17.0.2"],\
             ["vite", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:2.9.1"],\
-            ["vite-plugin-ssr", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:0.4.0-beta.10"]\
+            ["vite-plugin-ssr", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:0.4.0-beta.11"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2425,10 +2425,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["vite-plugin-dist-importer", [\
-        ["npm:0.1.5", {\
-          "packageLocation": "./.yarn/cache/vite-plugin-dist-importer-npm-0.1.5-ac3223daf5-62ff597369.zip/node_modules/vite-plugin-dist-importer/",\
+        ["npm:0.1.6", {\
+          "packageLocation": "./.yarn/cache/vite-plugin-dist-importer-npm-0.1.6-a94f9512ef-06f0ceb215.zip/node_modules/vite-plugin-dist-importer/",\
           "packageDependencies": [\
-            ["vite-plugin-dist-importer", "npm:0.1.5"]\
+            ["vite-plugin-dist-importer", "npm:0.1.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2448,17 +2448,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["vite-plugin-ssr", [\
-        ["npm:0.4.0-beta.10", {\
-          "packageLocation": "./.yarn/cache/vite-plugin-ssr-npm-0.4.0-beta.10-d22dae5e08-86efc062cb.zip/node_modules/vite-plugin-ssr/",\
+        ["npm:0.4.0-beta.11", {\
+          "packageLocation": "./.yarn/cache/vite-plugin-ssr-npm-0.4.0-beta.11-e62da525d7-6e315a4226.zip/node_modules/vite-plugin-ssr/",\
           "packageDependencies": [\
-            ["vite-plugin-ssr", "npm:0.4.0-beta.10"]\
+            ["vite-plugin-ssr", "npm:0.4.0-beta.11"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:0.4.0-beta.10", {\
-          "packageLocation": "./.yarn/__virtual__/vite-plugin-ssr-virtual-1cb6b3d118/0/cache/vite-plugin-ssr-npm-0.4.0-beta.10-d22dae5e08-86efc062cb.zip/node_modules/vite-plugin-ssr/",\
+        ["virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:0.4.0-beta.11", {\
+          "packageLocation": "./.yarn/__virtual__/vite-plugin-ssr-virtual-0923e7f2bc/0/cache/vite-plugin-ssr-npm-0.4.0-beta.11-e62da525d7-6e315a4226.zip/node_modules/vite-plugin-ssr/",\
           "packageDependencies": [\
-            ["vite-plugin-ssr", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:0.4.0-beta.10"],\
+            ["vite-plugin-ssr", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:0.4.0-beta.11"],\
             ["@brillout/json-s", "npm:0.4.5"],\
             ["@brillout/libassert", "npm:0.5.4"],\
             ["@types/vite", null],\
@@ -2470,7 +2470,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["resolve", "patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"],\
             ["symlink-dir", "npm:5.0.1"],\
             ["vite", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:2.9.1"],\
-            ["vite-plugin-dist-importer", "npm:0.1.5"],\
+            ["vite-plugin-dist-importer", "npm:0.1.6"],\
             ["vite-plugin-glob", "npm:0.2.6"]\
           ],\
           "packagePeers": [\
